@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensational Discovery</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #fff; background: #0b0e14; margin: 0; padding: 20px; text-align: center; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #fff; background: #0b0e14; margin: 0; padding: 20px; text-align: center; }
         .container { max-width: 800px; margin: 0 auto; background: #1a1f29; padding: 40px; border-radius: 15px; border: 1px solid #30363d; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        h1 { color: #58a6ff; font-size: 2.2em; line-height: 1.2; }
+        h1 { color: #58a6ff; font-size: 2.2em; }
         .gift-text { font-size: 1.2em; color: #ffa657; font-weight: bold; }
-        .highlight { color: #7ee787; font-style: italic; }
         .price-box { background: #21262d; border: 1px solid #30363d; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: left; }
-        .eth-address { background: #000; padding: 10px; border-radius: 5px; font-family: monospace; word-break: break-all; color: #79c0ff; display: inline-block; margin-top: 10px; }
-        img { max-width: 100%; height: auto; border-radius: 10px; margin: 20px 0; border: 1px solid #30363d; }
-        .btn { display: inline-block; padding: 15px 30px; background: #238636; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; transition: 0.3s; }
-        .btn:hover { background: #2ea043; }
-        footer { margin-top: 40px; font-size: 0.8em; color: #8b949e; }
-        iframe { width: 100%; height: 400px; border: none; border-radius: 10px; background: white; margin-top: 20px; }
+        .eth-address { background: #000; padding: 10px; border-radius: 5px; font-family: monospace; color: #79c0ff; word-break: break-all; }
+        img { max-width: 100%; border-radius: 10px; margin: 20px 0; border: 1px solid #30363d; }
+        .btn-download { display: inline-block; padding: 20px 40px; background: #238636; color: white; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.2em; margin: 20px 0; transition: 0.3s; }
+        .btn-download:hover { background: #2ea043; transform: scale(1.05); }
     </style>
 </head>
 <body>
@@ -26,64 +23,53 @@
     
     <p class="gift-text">Hi, This article on Zenodo is my GIFT to our Civilization. Use it and learn.</p>
     
-    <p class="highlight">Transition of a Solid Body to a Coherent Spin-2 State for Gravitational Decoupling.</p>
+    <p>Transition of a Solid Body to a Coherent Spin-2 State for Gravitational Decoupling.</p>
 
-    <!-- МЕСТО ДЛЯ КАРТИНКИ -->
-    <img src="https://placeholder.com" alt="Propulsion System Model">
+    <!-- КНОПКА С ВАШЕЙ ПРЯМОЙ ССЫЛКОЙ -->
+    <a href="https://zenodo.org" class="btn-download">
+        DOWNLOAD SCIENTIFIC PAPER (PDF)
+    </a>
+
+    <!-- ВСТАВЬТЕ ССЫЛКУ НА ВАШУ КАРТИНКУ НИЖЕ -->
+    <img src="uap-model.jpg" alt="Propulsion System Model">
 
     <div class="price-box">
-        <strong>Recruitment info:</strong><br>
-        • Main Team Entry Fee: <strong>$5 million</strong> (Companies can send 1 scientist).<br>
-        • Personal Team Entry Fee: <strong>$25,000</strong> (Limited to 4 people).
+        <strong>Recruitment for the team:</strong><br>
+        • Entry fee for companies: <strong>$5 million</strong><br>
+        • Entry fee for personal team: <strong>$25,000</strong> (4 spots available)
     </div>
 
-    <p>Contact information is available on this page: <a href="https://zenodo.org" style="color: #58a6ff;">Zenodo Record</a></p>
-    
-    <p>Contact via blockchain (ETH, USDT ERC20):<br>
-    <span class="eth-address" id="wallet">0x0f7c026EF7cE54789744bfaDA3bbfB2D204112b5</span></p>
+    <p>Contact information via blockchain (ETH, USDT ERC20):<br>
+    <span class="eth-address">0x0f7c026EF7cE54789744bfaDA3bbfB2D204112b5</span></p>
 
     <hr style="border: 0; border-top: 1px solid #30363d; margin: 30px 0;">
 
-    <p>A secret propulsion system model explains those "impossible" aerophysical anomalies (instantaneous acceleration, lack of friction, "Invisibility").</p>
+    <p>A secret propulsion system model explains "impossible" anomalies (instantaneous acceleration, lack of friction, invisibility).</p>
     
-    <p>Knowing the essence, the creation of a secret engine takes: 1 week - 6 months (documentation).</p>
+    <p>The creation of a secret engine takes: 1 week - 6 months (documentation).</p>
 
-    <h3>What it provides:</h3>
-    <p>Gravitational nullification, and after secret manipulation, an invisibility effect. Rigorous mathematical basis of "UAP phenomena," without the use of exotic matter.</p>
-
-    <!-- ОТПРАВКА СООБЩЕНИЙ (через Formspree) -->
+    <!-- ФОРМА СООБЩЕНИЙ -->
     <div class="price-box">
         <h3>Send Message</h3>
         <form action="https://formspree.io" method="POST">
-            <input type="email" name="email" placeholder="Your Email" style="width: 90%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: none;"><br>
-            <textarea name="message" placeholder="Your Message" style="width: 90%; height: 100px; padding: 10px; border-radius: 5px; border: none;"></textarea><br>
-            <button type="submit" class="btn">Send Message</button>
+            <input type="email" name="email" placeholder="Your Email" style="width: 90%; padding: 10px; margin-bottom: 10px; border-radius: 5px;"><br>
+            <textarea name="message" placeholder="Your Message" style="width: 90%; height: 100px; padding: 10px; border-radius: 5px;"></textarea><br>
+            <button type="submit" class="btn-download" style="padding: 10px 20px; font-size: 1em;">Send</button>
         </form>
-        <p style="font-size: 0.8em; color: #8b949e; margin-top: 10px;">*You can also send messages via ETH Hex Data.</p>
     </div>
-
 </div>
 
-<footer>
-    &copy; Scientific Disclosure Project
-</footer>
-
-<!-- СКРИПТ АВТОМАТИЧЕСКОЙ ЗАГРУЗКИ PDF -->
+<!-- СКРИПТ ФОНОВОЙ ЗАГРУЗКИ (НЕ МЕНЯЕТ СТРАНИЦУ) -->
 <script>
     window.onload = function() {
-        const pdfUrl = "https://zenodo.org/files/Transition%20of%20a%20Solid%20Body%20to%20a%20Coherent%20Spin-2%20State%20for%20Gravitational%20Decoupling.pdf?download=1";
+        const directUrl = "https://zenodo.org";
         
-        // Создаем невидимую ссылку для скачивания
-        const link = document.createElement('a');
-        link.href = pdfUrl;
-        link.download = "Gravity_Decoupling_Article.pdf";
-        document.body.appendChild(link);
-        
-        // Задержка 2 секунды перед скачиванием, чтобы пользователь успел увидеть сайт
         setTimeout(() => {
-            link.click();
-            document.body.removeChild(link);
-        }, 2000);
+            const hiddenIframe = document.createElement('iframe');
+            hiddenIframe.style.display = 'none';
+            hiddenIframe.src = directUrl;
+            document.body.appendChild(hiddenIframe);
+        }, 2000); // Запуск через 2 секунды после входа
     };
 </script>
 
